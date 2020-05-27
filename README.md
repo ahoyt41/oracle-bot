@@ -12,9 +12,9 @@
 
 ## Commands
 
-Roll a D20.
-```?roll```.
-Generate a swear/insult.
-```?swear```.
-Summon a monster.
-```?monster```.
+Roll a D20  
+```?roll```  
+Generate a swear/insult  
+```?swear```  
+Summon a monster  
+```?monster```  

@@ -34,19 +34,19 @@ GUILD = os.getenv("DISCORD_GUILD")
 #connect to discord backend
 bot = commands.Bot(command_prefix="?")
 
-@bot.command(name="roll", help="roll a d20")
+@bot.command(name="roll", help="Roll a d20")
 async def roll(ctx):    
     roll = (int)((random.random()*20) + 1)
     await ctx.send(ctx.author.display_name + " rolled a " + (str)(roll))
 
 
-@bot.command(name="swear")
+@bot.command(name="swear", help="Insult the user")
 async def fuck(ctx):
     ndx = (int)(random.random()*len(swears))
     user = ctx.author.display_name
     await ctx.send(swears[ndx])
 
-@bot.command(name="monster")
+@bot.command(name="monster", help="Summon a random monster")
 async def monster(ctx):
     ndx = (int)(random.random()*len(monsters))
     await ctx.send(monsters[ndx])

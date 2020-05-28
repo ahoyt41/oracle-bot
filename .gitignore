@@ -1,2 +1,4 @@
 .env
 botenv/
+*.conf
+*.log

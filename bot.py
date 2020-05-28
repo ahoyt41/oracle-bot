@@ -4,6 +4,7 @@ bot.py
 
 import os
 import random
+import sys
 from dotenv import load_dotenv
 from discord.ext import commands
 
@@ -23,8 +24,13 @@ monsters = [
         "goblin",
         "borpian",
         "bone fairies",
-        "big fucking turtle"
+        "big fucking turtle",
+        "Ice demon",
+        "Hogglesnuffer"
     ]
+monster_desc ={
+    "owlbear":""
+}
 
 #load environment variables from .env
 load_dotenv()
@@ -33,6 +39,21 @@ TOKEN = os.getenv("DISCORD_TOKEN")
 GUILD = os.getenv("DISCORD_GUILD")
 #connect to discord backend
 bot = commands.Bot(command_prefix="?")
+
+@bot.command(name="who", help="Choose a random member of the party")
+async def who(ctx):
+    guilds = bot.guilds
+    
+    members = guilds[0].members
+    users = []
+    for member in members:
+        if not member.bot:
+            users.append(member.display_name)
+    ndx = int(random.random()*len(users))
+    sys.stdout.write("Users = " + str(users)+'\n')
+    user = users[ndx]
+    sys.stdout.write(user + " is selected\n")
+    await ctx.send(user)
 
 @bot.command(name="roll", help="Roll a d20")
 async def roll(ctx):    

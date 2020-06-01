@@ -2,3 +2,4 @@
 botenv/
 *.conf
 *.log
+.vscode/

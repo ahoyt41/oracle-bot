@@ -38,5 +38,5 @@ Generate an encounter
 ```?encounter```  
 Choose someone from the party at random  
 ```?who```  
-Show a description for an entity
+Show a description for an entity  
 ```?describe <entity>```

@@ -34,3 +34,9 @@ Generate a swear/insult
 ```?swear```  
 Summon a monster  
 ```?monster```  
+Generate an encounter  
+```?encounter```  
+Choose someone from the party at random  
+```?who```  
+Show a description for an entity
+```?describe <entity>```

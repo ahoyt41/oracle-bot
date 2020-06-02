@@ -87,14 +87,15 @@ encounters = [
     "goblin",
     "bog witch",
     "traveling medic",
-    "fountain of \*instert liquid\*",
+    r"fountain of \*instert liquid\*",
     "vampire hunter",
     "group of bandits",
     "mysterious cave",
     "necromancer ritual",
     "wounded dragon",
     "boarpion rodeo",
-    "thief ambush"
+    "thief ambush",
+    "abandoned fort"
 
 ]
 

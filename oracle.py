@@ -33,7 +33,8 @@ monsters = [
         "swarm of wasps",
         "swarm of swarms",
         "Bat-men",
-        "The spirit of the damned"
+        "The spirit of the damned",
+        "Frost Yeti"
     ]
 desc ={
     "owlbear":"This absolute unit is a massive bear with the crushing beak of an owl. The owlbear will rip you apart if it gets the chance",
@@ -72,7 +73,12 @@ you can easily tell them apart because FUCKFUCKFUCKFUCKFUC",
 who managed to break free. These spirits gain supernatural powers on their \
 return to Earth: in exchange, they remain burned by the fires of Hell, \
 no matter how cold it may be. This specific type of ghost is incredibly \
-rare to find, considering the odds of a soul getting out of Hell in the first place"
+rare to find, considering the odds of a soul getting out of Hell in the first place",
+    "frost yeti":"A rare subspecies of Yeti completely acclimated to the frozen \
+temperatures of the Crow Mountains. These yetis have supernatural strength, and \
+can use a powerful frost-breath spell, freezing anything it comes in contact with. \
+However, this variation is even more susceptible to fire, starting to literally \
+melt even at the slightest source of flame"
     }
 encounters = [
     "merchant",

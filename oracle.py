@@ -96,7 +96,6 @@ encounters = [
     "boarpion rodeo",
     "thief ambush",
     "abandoned fort"
-
 ]
 
 
@@ -131,7 +130,6 @@ async def roll(ctx):
 @bot.command(name="swear", help="Insult the user")
 async def fuck(ctx):
     ndx = (int)(random.random()*len(swears))
-    user = ctx.author.display_name
     await ctx.send(swears[ndx])
 
 @bot.command(name="monster", help="Summon a random monster")
@@ -153,7 +151,7 @@ async def describe(ctx, *args):
 @bot.command(name="encounter", help="Randomly spawn an encounter")
 async def encounter(ctx):
     ndx = (int)(random.random()*len(encounters))
-    await ctx.send("A wild "+ encounters[ndx] + " has appeared!!!")
+    await ctx.send(encounters[ndx])
 
 
 bot.run(TOKEN)

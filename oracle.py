@@ -153,5 +153,19 @@ async def encounter(ctx):
     ndx = (int)(random.random()*len(encounters))
     await ctx.send(encounters[ndx])
 
-
+@bot.command(name="8ball", help="roll an 8ball")
+async def eightBall(ctx):
+    outputs = [
+        'yes', 'no', 'signs point to no',
+        'without a doubt', 'hmmm .... perhaps',
+        'ask again later', 'reply hazy',
+        'concentrate and ask again',
+        'absolutely', 'my sources say ... yes',
+        'nah', 'I dont think so'
+    ]
+    numOutputs = len(outputs)
+    ndx = int(random.random()*numOutputs)
+    output = outputs[ndx]
+    
+    await ctx.send(output)
 bot.run(TOKEN)

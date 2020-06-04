@@ -95,7 +95,8 @@ encounters = [
     "wounded dragon",
     "boarpion rodeo",
     "thief ambush",
-    "abandoned fort"
+    "abandoned fort",
+    "traveling circus"
 ]
 
 

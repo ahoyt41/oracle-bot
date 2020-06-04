@@ -41,4 +41,6 @@ Choose someone from the party at random
 Show a description for an entity  
 ```?describe <entity>```  
 Ask the 8 ball a question  
-```?8ball```  
+```?8ball```
+List the avaiable encounters and monsters
+```?list <monsters|encounters>  

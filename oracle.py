@@ -87,7 +87,7 @@ encounters = [
     "goblin",
     "bog witch",
     "traveling medic",
-    r"fountain of \*instert liquid\*",
+    r"fountain of \*insert liquid\*",
     "vampire hunter",
     "group of bandits",
     "mysterious cave",

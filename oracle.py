@@ -170,5 +170,5 @@ async def eightBall(ctx):
     output = outputs[ndx]
     
     await ctx.send(output)
-bot.run(TOKEN)
 
+bot.run(TOKEN)

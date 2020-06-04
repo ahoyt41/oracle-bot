@@ -154,6 +154,21 @@ async def encounter(ctx):
     ndx = (int)(random.random()*len(encounters))
     await ctx.send(encounters[ndx])
 
+@bot.command(name="list", help="List all possible monsters or encounters")
+async def _list(ctx, arg):
+    if arg == "monsters":
+        outputs = monsters
+    elif arg == "encounters":
+        outputs = encounters
+    else:
+        outputs = []
+    output_str = ""
+    if len(outputs) > 0:
+        for entry in outputs:
+            output_str += str(entry) + '\n'
+    else:
+        output_str += "I am not sure what " + str(arg) + " is."
+    await ctx.send(output_str)
 
 @bot.command(name="8ball", help="roll an 8ball")
 async def eightBall(ctx):

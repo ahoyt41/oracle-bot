@@ -37,48 +37,48 @@ monsters = [
         "Frost Yeti"
     ]
 desc ={
-    "owlbear":"This absolute unit is a massive bear with the crushing beak of an owl. The owlbear will rip you apart if it gets the chance",
-    "goblin": "A little green man. He wants gold and is not afraid to commit crimes. \
-They usually travel together. ",
-    "borpion":"The unholy spawn of a boar and a scorpion, but also massive. \
-It is extremely protective of its young and possesses large claws and a stinger full of venom. \
-A single sting is often not lethal, but it is certainly unpleasant.",
-    "bone faery": "The larger and more aggressive cousin of the well-known and docile tooth fairy. \
-It really wants your bones.",
-    "big fucking Ttrtle": "Its just a big fucking turtle",
-    "ice demon": "A demon made of ice. It has the capacity to freeze things \
-and make weapons out of ice using the water in the air. This demon is \
-weakened by heat and is especially powerless in hot, dry air.",
-    "hogglesnuffer": "Kat Berger came up with this one, ask her.",
-    "rat goliath": "A super buff rat mutant; he is also hung like a horse. \
-He is super aggressive but will likely run away before fighting to the death. ",
-    "merchant":"He has wares if you have coin.",
-    "vagabond":"A wanderer. Each one is different. ",
-    "orc":"A big, stinky, muscled humanoid. Be careful, \
-for he is filled with rage and bloodlust. Approach with caution.",
-    "bog witch": "Not to be confused with a sandwich. A woman of the swamps. \
-She can communicate with frogs and other such creatures and cast spells. \
-She is attuned with nature, though her odor is off-putting." ,
-    "clay templar":"A large, humanoid creature carrying a shield and mace, \
-typically created by sorcerers. Can reform itself using nearby sources of \
-stone. Has a weak spot hidden in its body.",
-    "bat-men":"A cross between humans and bats, with large wings and ears, \
-they hunt in packs of up to 5. They are virtually blind and find prey \
-solely through echolocation. No robins in sight.",
-    "swarm of bees": "They’re just bees. Leave them alone.",
-    "swarm of wasps": "easily confused with swarm of bees. \
-you can easily tell them apart because FUCKFUCKFUCKFUCKFUC",
-"swarm of swarms":"It’s a swarm. Of swarms.",
-"the spirit of the damned": "A tormented soul sent to the underworld \
-who managed to break free. These spirits gain supernatural powers on their \
-return to Earth: in exchange, they remain burned by the fires of Hell, \
-no matter how cold it may be. This specific type of ghost is incredibly \
-rare to find, considering the odds of a soul getting out of Hell in the first place",
-    "frost yeti":"A rare subspecies of Yeti completely acclimated to the frozen \
-temperatures of the Crow Mountains. These yetis have supernatural strength, and \
-can use a powerful frost-breath spell, freezing anything it comes in contact with. \
-However, this variation is even more susceptible to fire, starting to literally \
-melt even at the slightest source of flame"
+        "owlbear":"This absolute unit is a massive bear with the crushing beak of an owl. The owlbear will rip you apart if it gets the chance",
+        "goblin": "A little green man. He wants gold and is not afraid to commit crimes. \
+    They usually travel together. ",
+        "borpion":"The unholy spawn of a boar and a scorpion, but also massive. \
+    It is extremely protective of its young and possesses large claws and a stinger full of venom. \
+    A single sting is often not lethal, but it is certainly unpleasant.",
+        "bone faery": "The larger and more aggressive cousin of the well-known and docile tooth fairy. \
+    It really wants your bones.",
+        "big fucking Ttrtle": "Its just a big fucking turtle",
+        "ice demon": "A demon made of ice. It has the capacity to freeze things \
+    and make weapons out of ice using the water in the air. This demon is \
+    weakened by heat and is especially powerless in hot, dry air.",
+        "hogglesnuffer": "Kat Berger came up with this one, ask her.",
+        "rat goliath": "A super buff rat mutant; he is also hung like a horse. \
+    He is super aggressive but will likely run away before fighting to the death. ",
+        "merchant":"He has wares if you have coin.",
+        "vagabond":"A wanderer. Each one is different. ",
+        "orc":"A big, stinky, muscled humanoid. Be careful, \
+    for he is filled with rage and bloodlust. Approach with caution.",
+        "bog witch": "Not to be confused with a sandwich. A woman of the swamps. \
+    She can communicate with frogs and other such creatures and cast spells. \
+    She is attuned with nature, though her odor is off-putting." ,
+        "clay templar":"A large, humanoid creature carrying a shield and mace, \
+    typically created by sorcerers. Can reform itself using nearby sources of \
+    stone. Has a weak spot hidden in its body.",
+        "bat-men":"A cross between humans and bats, with large wings and ears, \
+    they hunt in packs of up to 5. They are virtually blind and find prey \
+    solely through echolocation. No robins in sight.",
+        "swarm of bees": "They’re just bees. Leave them alone.",
+        "swarm of wasps": "easily confused with swarm of bees. \
+    you can easily tell them apart because FUCKFUCKFUCKFUCKFUC",
+    "swarm of swarms":"It’s a swarm. Of swarms.",
+    "the spirit of the damned": "A tormented soul sent to the underworld \
+    who managed to break free. These spirits gain supernatural powers on their \
+    return to Earth: in exchange, they remain burned by the fires of Hell, \
+    no matter how cold it may be. This specific type of ghost is incredibly \
+    rare to find, considering the odds of a soul getting out of Hell in the first place",
+        "frost yeti":"A rare subspecies of Yeti completely acclimated to the frozen \
+    temperatures of the Crow Mountains. These yetis have supernatural strength, and \
+    can use a powerful frost-breath spell, freezing anything it comes in contact with. \
+    However, this variation is even more susceptible to fire, starting to literally \
+    melt even at the slightest source of flame"
     }
 encounters = [
     "merchant",

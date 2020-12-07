@@ -3,3 +3,4 @@ botenv/
 *.conf
 *.log
 .vscode/
+.venv/
